@@ -2,13 +2,9 @@
 
 Make a PR with the contributions you want to make 
 
-Here are some important resources:
-
-**TODO**
-
 ## Testing
 
-Right now only pytest is used for the python scripts
+Right now only pytest is used for the python scripts but feel free to include different testing framework for different languages
 
 ## Submitting changes
 
@@ -19,6 +15,10 @@ Always write a clear log message for your commits. One-line messages are fine fo
     $ git commit -m "A brief summary of the commit
     > 
     > A paragraph describing what changed and its impact."
+
+# Coding conventions
+Nothing fancy, just make sure code is readable and is well documented
+
 
 
 Thanks,
