@@ -1,0 +1,5 @@
+classes = 7
+train = /home/user/nn/shapes_neural_network/shapes_neural_network_train.txt
+valid = /home/user/nn/shapes_neural_network/shapes_neural_network_valid.txt
+names = /home/user/nn/shapes_neural_network/shapes_neural_network.names
+backup = /home/user/nn/shapes_neural_network
