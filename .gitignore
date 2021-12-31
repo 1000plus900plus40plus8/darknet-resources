@@ -1,1 +1,26 @@
+# Boilerplate python files
+__pycache__
+.pytest_cache
+.coverage
+.tox
+.mypy_cache
+.pytest_cache
+
+# Boilerplate directories
 .idea
+.vscode
+venv
+.venv
+
+# Other
+.DS_Store
+.env
+.git
+.gitignore
+.gitmodules
+.idea
+.ipynb_checkpoints
+.mypy_cache
+*.ipynb
+
+

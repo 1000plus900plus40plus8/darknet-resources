@@ -10,6 +10,7 @@ The generated images contain one of the following shapes:
 * line
 * arrow
 * triangle
+* star
 
 For each image generation iteration, We select two random colors. The first color is used for our background and the second color is used for the shape which is randomly placed on the image. 
 
