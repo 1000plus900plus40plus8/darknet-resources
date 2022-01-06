@@ -24,3 +24,6 @@ venv
 *.ipynb
 
 
+
+# datast generation output
+shapes_neural_network
