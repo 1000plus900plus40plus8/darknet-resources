@@ -54,15 +54,19 @@ I'll call out the changes I've made:
 `sed -i "s|TEMPLATE_REPLACE_ME_TEXT|$TRAINING_SCRIPT|g" monitrc-working`
 
 Note that we use | here for a delimiter since our variable contains / characters
-6. Set monitrc permission to 600 
+ 
+6Set monitrc permission to 600 
 
 `chmod 600 monitrc-working`
+
 7. Copy your `monitrc-working` file to `/etc/monit/monitrc` 
 
 `sudo cp monitrc-working /etc/monit/monitrc`
+
 8. Restart monit to load the new monitrc: 
 
 `systemctl restart monit`
+
 10. Open the Monit Service Manager http://localhost:2812/
 
 Credentials are defined in the monitrc file
@@ -86,3 +90,7 @@ To check gpu usage:
 To check the output of darknet:
 
 _Still working on this..._
+
+# Why not make a script?
+This post on stackoverflow to outlines why you shouldn't make a script for this and use a tool like Monit instead
+https://stackoverflow.com/a/697064/7998814
